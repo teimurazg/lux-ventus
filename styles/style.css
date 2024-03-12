@@ -71,7 +71,7 @@ ul{
     width: 783px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 ul a{
     color: #262626;
