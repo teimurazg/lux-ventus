@@ -219,3 +219,65 @@ ul a{
     font-weight: 700;
 }
 
+/* section 5 */
+.section5 {
+    max-width: 1272px;
+    width: 100%;
+    margin: 0 auto 69px;
+    display: flex;
+    flex-direction: column;
+    gap: 57px;
+}
+.section5card {
+    display: flex;
+    gap: 46px;
+    border-radius: 20px;
+    box-shadow: 0 2px 2px -2px gray;
+}
+.user-info {
+    display: flex;
+    gap: 17px;
+    align-items: center; 
+    margin-bottom: 36px;  
+}
+.user-text {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.card-content{
+    max-width: 570px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.user-text p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #BCBCBC;
+}
+.section5card h3 {
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #262626;
+    margin-bottom: 30px;
+}
+.card-description {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #262626;
+    margin-bottom: 30px;
+}
