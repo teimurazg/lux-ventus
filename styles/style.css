@@ -62,6 +62,9 @@ body {
   border: none;
   border-radius: 40px;
 }
+.searchDiv:hover {
+  background-color: hwb(333 69% 3%);
+}
 
 /* navbar */
 .navbar-wrapper {
