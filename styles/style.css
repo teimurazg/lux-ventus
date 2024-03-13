@@ -46,18 +46,10 @@ body {
   line-height: 36px;
 }
 
-/* arrow icon btn */
-.arrowIcon {
-  color: #4ce0d7;
-  font-size: 12px;
-  letter-spacing: 0.24em;
-  font-weight: 700;
-  font-family: Poppins;
-  line-height: 18px;
-}
-.arrowIcon:hover {
-  color: hwb(333 69% 3%);
-  cursor: pointer;
+.sec3Cont .blackTag {
+  position: absolute;
+  left: 47px;
+  top: 23px;
 }
 
 /* search icon btn */
@@ -376,7 +368,7 @@ ul a:hover {
   border-radius: 20px;
 }
 
-.sec4card p {
+.sec4p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -457,11 +449,6 @@ ul a:hover {
   padding-bottom: 23px;
 }
 
-.sec4card p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-}
 .section5card {
   position: relative;
 }
@@ -477,6 +464,7 @@ ul a:hover {
 }
 
 .sec3Cont {
+  position: relative;
   max-width: 1204px;
   background-color: #ffffff;
   border-radius: 20px;
@@ -542,4 +530,20 @@ ul a:hover {
 .sec3Cont .arrowIcon {
   padding-left: 51px;
   padding-bottom: 32px;
+}
+/* arrow icon btn */
+.arrowIcon {
+  color: #4ce0d7;
+  font-size: 12px;
+  letter-spacing: 0.24em;
+  font-weight: 700;
+  font-family: Poppins;
+  line-height: 18px;
+}
+.arrowIcon:hover {
+  color: hwb(333 69% 3%);
+  cursor: pointer;
+}
+.footer-icons img:hover {
+  cursor: pointer;
 }
