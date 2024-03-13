@@ -188,6 +188,9 @@ ul a:hover {
 .section1Texts span {
   font-weight: 700;
   color: #4ce0d7;
+  background-image: linear-gradient(90deg, #4CE0D7, #8BA9F4);
+  background-clip: text;
+  color: transparent;
 }
 
 /* section2 */
