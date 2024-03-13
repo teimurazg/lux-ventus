@@ -188,7 +188,7 @@ ul a:hover {
 .section1Texts span {
   font-weight: 700;
   color: #4ce0d7;
-  background-image: linear-gradient(90deg, #4CE0D7, #8BA9F4);
+  background-image: linear-gradient(90deg, #4ce0d7, #8ba9f4);
   background-clip: text;
   color: transparent;
 }
@@ -286,6 +286,9 @@ ul a:hover {
   letter-spacing: 0em;
   text-align: left;
   color: #262626;
+  /* margin-bottom: 30px; */
+}
+.section5card h3{
   margin-bottom: 30px;
 }
 .card-description {
