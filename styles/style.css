@@ -221,14 +221,15 @@ ul a{
 
 /* section 5 */
 .section5 {
-    max-width: 1272px;
+    max-width: 1204px;
     width: 100%;
     margin: 0 auto 69px;
     display: flex;
     flex-direction: column;
     gap: 57px;
 }
-.section5card {
+.section5card,
+.section3card {
     display: flex;
     gap: 46px;
     border-radius: 20px;
@@ -261,7 +262,8 @@ ul a{
     text-align: left;
     color: #BCBCBC;
 }
-.section5card h3 {
+.section5card h3,
+.section3 h3 {
     font-family: Poppins;
     font-size: 26px;
     font-weight: 700;
@@ -281,3 +283,58 @@ ul a{
     color: #262626;
     margin-bottom: 30px;
 }
+
+/* section 3 */
+
+.section3 {
+    max-width: 1204px;
+    width: 100%;
+    margin: 0 auto 69px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 52.5px;
+}
+
+.card-content3 {
+    max-width: 1033px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 38px;
+    margin: 0 auto;
+}
+
+.section3card {
+    margin-top: 24px;
+}
+
+.card-content3 .user-text :nth-child(3) {
+    color: red;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.24em;
+    text-align: left;
+
+}
+
+.card-content3 .user-text :nth-child(2) {
+    padding-right: 310px;
+}
+
+.card-content3 .card-description {
+    width: 800px;
+    height: 73px;
+}
+
+.background3 {
+    height: 360px;
+    width: 1204px;
+    background-image: url("../images/1_blog.svg");
+    padding-top: 23px;
+    padding-left: 47px;
+}
+
+
