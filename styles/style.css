@@ -106,7 +106,7 @@ ul a:hover {
 } */
 
 .footerDiv {
-  max-width: 1440px;
+  /* max-width: 1440px; */
   width: 100%;
   height: 308px;
   border-radius: 40px 40px 0 0;
@@ -291,7 +291,7 @@ ul a:hover {
   color: #262626;
   /* margin-bottom: 30px; */
 }
-.section5card h3{
+.section5card h3 {
   margin-bottom: 30px;
 }
 .card-description {
@@ -383,7 +383,7 @@ ul a:hover {
   line-height: 24px;
 }
 
-.cardFirstImg{
+.cardFirstImg {
   max-width: 579px;
   width: 100%;
   height: 278px;
