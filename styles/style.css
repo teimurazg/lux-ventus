@@ -383,6 +383,13 @@ ul a:hover {
   line-height: 24px;
 }
 
+.cardFirstImg{
+  max-width: 579px;
+  width: 100%;
+  height: 278px;
+  border-radius: 20px;
+}
+
 .sec4card :nth-child(2) {
   padding-left: 26px;
   padding-top: 23px;
